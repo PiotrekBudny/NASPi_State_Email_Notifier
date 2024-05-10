@@ -5,6 +5,6 @@ mailSettings = dict(
     smtp_address = "smtp.gmail.com",
     destination_mail = "",
     default_subject = "NASPi Drive State Update",
-    default_from = "NASPi",
+    default_from = "",
     default_to = ""
 )
