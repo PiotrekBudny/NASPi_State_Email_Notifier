@@ -25,7 +25,9 @@ Setup
 
 2. Configure Email Settings
 
-   Edit config.py and fill in your email credentials and recipient information:
+   Edit config.py and fill in your email credentials and recipient information.
+   Example configuration:
+
    mailSettings = dict(
        sender_mail = "your_email@gmail.com",
        app_password = "your_app_password",
@@ -36,6 +38,7 @@ Setup
        default_from = "NASPi",
        default_to = "Recipient Name"
    )
+
    Tip: For Gmail, you may need to use an App Password.
 
 3. Customize Email Template (Optional)
@@ -61,4 +64,4 @@ File Structure
 
 License
 
-MIT License (add your license here
+MIT License (add your license here if needed)
